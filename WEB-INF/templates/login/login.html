@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="求应公共平台">
+    <link rel="stylesheet" type="text/css" href="/assets/css/ialmost-reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/mp-login.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/libs/alice/base/1.0.2/base.css">
+    <script type="text/javascript" src="/libs/jquery/1.8.3/jquery.js"></script>
+    <title>求应公共平台</title>
+</head>
+<body>
+<!--第一屏开始-->
+<div id="wrapper">
+    <!--头部开始-->
+    <div class="head">
+        <div class="base header" style="margin: 0 auto;">
+            <div class="index-logo">
+                <a href="/login" title="你有求，我必应">
+                    <img src="/assets/images/logo.png" alt="求应LOGO"/>
+                </a>
+            </div>
+            <ul class="nav">
+                <li><a href="/help" target="_blank">帮助</a></li>
+                <li><a href="/login" class="now">公共平台</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--头部结束-->
+    <!--主导航开始-->
+    <div class="menu-wrap">
+        <ul class="base menu">
+            <li><a href="http://www.qiuying.com/" title="搜索" target="_blank">搜索</a></li>
+            <li><a href="http://tuan.qiuying.com/" title="团购" target="_blank">团购</a></li>
+            <li><a href="http://map.qiuying.com/" title="商家地图" target="_blank">商家地图</a></li>
+            <li><a href="http://zs.qiuying.com/" title="招商" target="_blank">招商</a></li>
+            <li><a href="http://hao.qiuying.com/" title="网址导航" target="_blank">网址导航</a></li>
+            <li><a href="http://q1.qiuying.com/" title="求应手机" target="_blank">求应手机</a></li>
+            <li><a href="http://m.qiuying.com/" title="求应智能软件" target="_blank">求应智能软件</a></li>
+        </ul>
+    </div>
+    <!--主导航结束-->
+    <!--主体开始-->
+    <div class="base clearfix" id="login-body">
+        <div class="login-form">
+            <h1>
+                <img src="/assets/images/login/login-l_03.png">
+            </h1>
+
+            <form action="#" class="registerform">
+                <div class="user">
+                    <!-- label class="userl" for="username">求应号 / 手机号</label -->
+                    <input type="text" id="username" name="username" placeholder="输入求应号"/><i class="ico-user-close"></i>
+                </div>
+                <div class="tips">
+                    <em class="umes">
+                        <!-- 提示信息 -->
+                    </em>
+                </div>
+                <div class="password">
+                    <!-- label class="passl" for="password">请输入密码</label -->
+                    <input type= password id="password" name="password" placeholder="输入密码">
+                    <i class="ico-password-close"></i>
+                </div>
+                <div class="tips">
+                    <em class="pmes">
+                        <!-- 提示信息 -->
+                    </em> <a href="/findpwd" class="forget">忘记密码？</a>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="登    录" id="loginBtn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--主体结束-->
+
+    <!--尾部公用开始-->
+    <div class="footer">
+        中国兴邦产业集团旗下网站：求应<span>&copy;&nbsp;2014</span><span>赣B2-20130009</span><span>赣ICP备12005852号-2</span>
+    </div>
+    <!--尾部公用结束-->
+</div>
+<div class="login-bg">
+    <img src="/assets/images/login/login-bg21.png"/>
+</div>
+<!--第一屏结束-->
+<script src="/assets/libs/seajs/2.3.0/sea.js"></script>
+<script>
+
+    seajs.use("/assets/js/mp-login");
+</script>
+</body>
+</html>
